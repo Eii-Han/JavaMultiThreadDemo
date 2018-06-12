@@ -39,7 +39,7 @@ public class Runner {
 		
 		Scanner scanner= new Scanner(System.in);
 		try {
-			Thread.sleep(1000);
+			Thread.sleep(2000);
 			lock.lock();
 			
 			System.out.println("Please press return key");

@@ -114,11 +114,12 @@ public class App {
 			run16.show();
 			break;
 		case 17:
-			// 
+			// Demonstrate how to interrupt a running thread
 			InterruptSample run17 = new InterruptSample();
 			run17.show();
 			break;
 		case 18:
+			// Demonstrate how to interrupt a Thread pool
 			InterruptThreadPool run18 = new InterruptThreadPool();
 			run18.show();
 			break;
